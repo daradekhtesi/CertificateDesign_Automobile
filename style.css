@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed:700');
+
+hr {
+  background-color: #6E918B;
+  height: 2px;
+  margin: 5px;
+}
+
+div#cert-footer {
+  position: absolute;
+  width: 60%;
+  top: 400px;
+  text-align: center;
+}
+
+#cert-stamp, #cert-ceo-sign {
+  width: 60%;
+  display: inline-block;
+}
+
+div#cert-issued-by, div#cert-ceo-design {
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+div#cert-ceo-design {
+  margin-left: 10%;
+}
+
+h1 {
+  font-family: 'Saira Condensed', sans-serif;
+  margin: 5px 0px;
+}
+
+body {
+  width: 950px;
+  height: 690px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  margin: 5px 0px;
+}
+
+html {
+  display: inline-block;
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+  position: relative;
+  background: #eee url("certificate.jpg") no-repeat; background-size: 100%;
+}
+
+h1#cert-holder {
+  font-size: 50px;
+  color: #be2d24;
+}
+
+p.smaller {
+  font-size: 17px !important;
+}
+
+div#cert-desc {
+  width: 70%;
+}
+
+p#cert-from {
+  color: #be2d24;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+div#cert-verify {
+  opacity: 1;
+  position: absolute;
+  top: 620px;
+  left: 26%;
+  font-size: 17px;
+  color: grey;
+}
+
+/* usage for reference */
+
+
+div#sign-one, div#sign-two, div#sign-three {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin: 2.5rem .9rem;
+}
+
+.module {
+  position: absolute;
+}
+
+.image {
+  position: relative;
+  z-index: 1;
+}
